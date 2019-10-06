@@ -1,0 +1,220 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: shredinger2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP1264.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/shredinger2.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1264.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1265.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/shredinger2.pdb" /machine:I386 /out:"Release/shredinger2.exe" 
+".\Release\AutoPage.obj"
+".\Release\ManPage.obj"
+".\Release\Sheet.obj"
+".\Release\shredinger2.obj"
+".\Release\shredinger2Dlg.obj"
+".\Release\StdAfx.obj"
+".\Release\shredinger2.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1265.TMP"
+<h3>Output Window</h3>
+Compiling...
+AutoPage.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(215) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(233) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(235) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(245) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(247) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(272) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(290) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(292) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(302) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(304) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(329) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(350) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(352) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(362) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(364) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(388) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(406) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(408) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(418) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(420) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(495) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(496) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(492) : warning C4101: 'ch' : unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(524) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(525) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(526) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(538) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(575) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(575) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(576) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(576) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(581) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(581) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(582) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(582) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(598) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(599) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(599) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(630) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(630) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(631) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(631) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(639) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(639) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(640) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(640) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(650) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(651) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(651) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(656) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(664) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(699) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(699) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(700) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(700) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(708) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(708) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(709) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(709) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(719) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(720) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(720) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(751) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(751) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(752) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(752) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(760) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(760) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(761) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(761) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(771) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(772) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(772) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(777) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(791) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(792) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(792) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(794) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(794) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(795) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(795) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(796) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(796) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(797) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(797) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(825) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(826) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(827) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(828) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\AutoPage.cpp(829) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+ManPage.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(68) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(70) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(71) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(72) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(99) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(100) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(101) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(109) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(136) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(149) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(149) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(150) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(150) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(155) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(155) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(156) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(156) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(165) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(166) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(166) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(181) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(191) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(191) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(192) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(192) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(200) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(200) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(201) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(201) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(211) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(212) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(212) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(244) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(257) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(257) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(258) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(258) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(263) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(263) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(264) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(264) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(273) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(274) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(274) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(289) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(299) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(299) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(300) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(300) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(308) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(308) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(309) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(309) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(319) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(320) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(320) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(338) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(339) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(339) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(341) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(341) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(342) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(342) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(343) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(343) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(344) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(344) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(372) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(374) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(384) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(386) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(417) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(419) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(429) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(431) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(467) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(469) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(479) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(481) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(517) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(519) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(529) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(531) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(548) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(549) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(550) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(551) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\summer2004\shredinger23008a\ManPage.cpp(547) : warning C4101: 'ch' : unreferenced local variable
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+shredinger2.exe - 0 error(s), 179 warning(s)
+</pre>
+</body>
+</html>
